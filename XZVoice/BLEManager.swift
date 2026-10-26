@@ -24,6 +24,7 @@ final class BLEManager: NSObject, ObservableObject {
 
     struct Segment: Identifiable {
         let no: Int
+        var id: Int { no }
         let totalADPCM: Int
         var received: Int = 0
         var pcmBytes: Int = 0
