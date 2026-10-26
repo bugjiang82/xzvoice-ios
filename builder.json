@@ -1,0 +1,21 @@
+{
+  "project": "XZVoice",
+  "platform": "ios",
+  "github": {
+    "owner": "bugjiang82",
+    "repo": "xzvoice-ios"
+  },
+  "provider": "github",
+  "codemagic": {},
+  "bitrise": {},
+  "ios": {
+    "scheme": "XZVoice",
+    "bundleId": "com.xzvoice.app"
+  },
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {},
+  "kmp": {},
+  "mobai": {}
+}
